@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column; /* Change flex-direction to column */
+  justify-content: flex-start; /* Align content to the top */
+  align-items: center;
+  min-height: 100vh; /* Use min-height to ensure the content stretches the full height of the viewport */
+  background-color: #FFD2D7
+}
+
+.heading-container {
+  text-align: center;
+  border-radius: 32px;
+  width: 1000px;
+background: #9288F8;
+box-shadow:  6px 6px 20px #e0b9bd,
+             -6px -6px 20px #ffebf1;
+  padding: 20px;
+  margin-top: 30px; /* Add margin to create space between the heading and the top of the page */
+}
+
+h1 {
+  color: #322653 ;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header-link:hover {
+  color: #FFD2D7;
+}
+
+h1:hover {
+  color: rgb(239, 218, 220);
+  text-shadow:1px 1px 10px #322653;
+}
+.welcome-message {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.welcome-message p {
+  font-size: 36px; /* Increase font size */
+  color: #322653;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-shadow:1px 1px 10px #FFD2D7;
+}
+
+.nav-button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 10px;
+  background: #9288f8;
+  box-shadow: 6px 6px 20px #e0b9bd, -6px -6px 20px #ffebf1;
+  color: #322653;
+  font-size: 16px;
+  cursor: pointer;
+  transition: color 0.2s; /* Add transition for smooth color change on hover */
+}
+
+.nav-button:hover {
+  color: #fff; /* Change text color on hover */
+  background: linear-gradient(145deg, #9c92ff, #837adf);
+  box-shadow:  5px 5px 10px #d4aeb2,
+             -5px -5px 10px #fff6fc;
+  transition: all 0.2s; /* Add transition for smooth color change on hover */
+}
+
+.nav-button:active {
+  background: linear-gradient(145deg, #837adf, #9c92ff);
+  box-shadow: inset 5px 5px 10px #7971ce,
+            inset -5px -5px 10px #ab9fff;
+  border: 2px   solid #fff;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.searchBox {
+  margin-right: 10px;
+}
+.linkedin-logo {
+  margin-top: 30px;
+}
+
+.linkedin-logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.linkedin-logo img:hover {
+  transform: scale(1.1);
+}
+
+.input {
+  padding: 10px;
+  border-radius: 10px;
+  background: #9288f8;
+  box-shadow: 6px 6px 20px #e0b9bd, -6px -6px 20px #ffebf1;
+  color: #322653;
+  font-size: 16px;
+  width: 200px;
+  outline: none;
+  border: none;
+}
+
+.input:hover{
+  background: linear-gradient(145deg, #9c92ff, #837adf);
+  box-shadow:  5px 5px 10px #d4aeb2,
+             -5px -5px 10px #fff6fc;
+  transition: all 0.2s; /* Add transition for smooth color change on hover */
+}
+
+.input::placeholder {
+  color: #322653; /* Change this to the desired placeholder color */
+}
+
+.input:focus{
+  background: linear-gradient(145deg, #837adf, #9c92ff);
+  box-shadow: inset 5px 5px 10px #7971ce,
+            inset -5px -5px 10px #ab9fff;
+  border: 2px   solid #fff;
+}
+
+.table-container {
+  max-width: 800px;
+  margin-top: 20px;
+  margin: 10 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
